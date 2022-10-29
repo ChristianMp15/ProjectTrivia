@@ -1,6 +1,6 @@
 # Soccer Trivia Game
 
-A soccer related game
+Soccer question game. 
 
 ### Technologies Used
 - HTML
@@ -15,11 +15,11 @@ A soccer related game
 |DAY|    GOAL    |
 |---|--------|
 | 1 | Generate  API from contentful
-| 2 | Test API
-| 3 | HTML,JAVASCRIPT & CSS |
-| 4 | Add more design |
-
-
+| 2 | Create content |
+| 3 | Test API |
+| 4 | HTML,JAVASCRIPT & CSS |
+| 5 |Test functionality |
+| 6 |Add some design|
 
 ### Link to Project
 [My Project Live Page](https://https://project1-eight-chi.vercel.app/)

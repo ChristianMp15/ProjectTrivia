@@ -1,0 +1,56 @@
+body {
+background: url("https://blog.uptodown.com/wp-content/uploads/top-futbol-featured.jpg");
+}
+h1 {
+    text-align: center;
+    color: goldenrod
+}
+#question {
+    width: 70%;
+    padding: 30px;
+    border: 3px solid aqua;
+    background-color: navy;
+    color:white;
+    font: size 28px;
+    margin: 10px auto;
+
+}
+#answer {
+    width: 50%;
+    margin: 10px auto;
+    color: white;
+    background-color: brown;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#answer ul {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space around;
+    list-style: none;
+    width: 100%;
+
+}
+#answer ul li {
+    width: 40%;
+    height:40px;
+    background-color: black;
+    padding-top: 15px;
+    text-align: center;
+    margin: 5px;
+    font-weight: bolder;
+}
+#scores {
+    display: flex;
+    width: 70%;
+    background-color: darkgoldenrod;
+    justify-content: center;
+    margin: 10px auto;
+}
+#player1, #player2 {
+    width: 40%;
+    background-color: goldenrod;
+    margin: 5px;
+    text-align: center;
+}
