@@ -18,14 +18,13 @@ const $p2score = $("#player2 h4")
 //Functions 
 
 const chooseAnswer = (event, question) => {
-    
-    
+    console.log(event)
+    console.log(question)
     if(event.target.innerText === question.answer){
         
         if(state.which){
             state.player1++
             state.which = !state.which
-            
         }else{ 
             state.player2++
             state.which = !state.which
@@ -59,7 +58,7 @@ $p1score.text(state.player1)
 $p2score.text(state.player2)
 $("li").off()
 $("li").on("click",(event) =>{
-    chooseAnswer(event, randomQuestion)
+    chooseAnswer(event, question)
 } )
 
 //Ajax request the data from the URL .then run the code after the data arrive

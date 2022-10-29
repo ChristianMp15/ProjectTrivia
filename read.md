@@ -10,7 +10,7 @@ Soccer question game.
 - contentful
 ### wireframes
 
-![some text](https://www.ledgerinsights.com/wp-content/uploads/2020/02/soccer-football-goal.jpg)
+![some text](https://i.imgur.com/8sbsz5E.jpg)
 ### Daily Plan
 |DAY|    GOAL    |
 |---|--------|
